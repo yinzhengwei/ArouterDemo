@@ -92,7 +92,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                 myService.sayHello(this)
             }
             12 -> {
-                ARouter.getInstance().build("/xxx/xxx").navigation()
+                ARouter.getInstance().build("/hxd/xxx").navigation()
             }
             100 -> {
                 //获取Fragment 实例
